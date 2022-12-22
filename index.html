@@ -7,66 +7,62 @@
   <title>Ranking Kelas</title>
   <link rel="stylesheet" href="assets/rankingStyle.css">
 </head>
-<body class="box-border">
-<!-- 
-  <div class="m-4 grid grid-cols-3 gap-4">
-
-    <div class="bg-slate-200 rounded-2xl p-3">
-      <div class="text-center text-2xl p-4">2</div>
-      <img src="assets/img/default.png"/>
-      <div class="text-center p-4">Anonymous Name?</div>
+<body class="box-border bg-slate-300">
+  <nav class="z-10 p-4 flex font-mono border-b-2 border-slate-400">
+    <div class="text-lg font-medium mr-4">
+      tkj class
     </div>
-
-    <div class="bg-slate-200 rounded-2xl p-3">
-      <div class="text-center text-2xl p-4">1</div>
-      <img src="assets/img/default.png"/>
-      <div class="text-center p-4">Anonymous Name?</div>
+    <div class="border-2 border-sky-400 rounded-full px-3 py-1">
+      <select id="semester" class="bg-inherit">
+        <option value="10-1">10.1</option>
+        <option value="10-2">10.2</option>
+        <option value="11-1" selected>11.1</option>
+      </select>
     </div>
+  </nav>
+  <main>
+    <div id="content">
+      <h1 class="p-4 text-xl font-medium text-center">Kelas 11 semester 1</h1>
 
-    <div class="bg-slate-200 rounded-2xl p-3">
-      <div class="text-center text-2xl p-4">3</div>
-      <img src="assets/img/default.png"/>
-      <div class="text-center p-4">Anonymous Name?</div>
-    </div>
+      <div class="m-4 grid grid-cols-3 gap-4">
 
-  </div> -->
-
-  <div class="m-4 grid grid-cols-3 gap-4">
-
-    <div class="mt-4 bg-slate-200 rounded-2xl p-3 h-fit">
-      <div class="text-center text-2xl mb-4">2</div>
-      <img src="assets/img/default.png"/>
-      <div class="text-center py-4">Febri Nur Ardian Syah</div>
-    </div>
-
-    <div class="bg-slate-200 rounded-2xl p-3 h-fit">
-      <div class="text-center text-2xl mb-4">1</div>
-      <img src="assets/img/default.png"/>
-      <div class="text-center py-4">Nizar Fajri Amanah</div>
-    </div>
-
-    <div class="mt-8 bg-slate-200 rounded-2xl p-3 h-fit">
-      <div class="text-center text-2xl mb-4">3</div>
-      <img src="assets/img/default.png"/>
-      <div class="text-center py-4">Febrian Raharjo</div>
-    </div>
-
-  </div>
-    <div class="m-4">
-      <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
-        <div class="w-1/6 text-2xl text-center">4</div>
-        <div class="w-1/6">
-          <img src="assets/img/default.png" />
+        <div class="mt-4 bg-slate-200 rounded-2xl p-3 h-fit">
+          <div class="font-mono text-center text-2xl mb-4">2</div>
+          <img src="assets/img/default.png" loading="lazy"/>
+          <div class="text-sm text-center py-4">Belum Di pastikan</div>
         </div>
-        <div class="w-full ml-4">Fahrul Ikmasikis</div>
-      </div>
-      <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
-        <div class="w-1/6 text-2xl text-center">5</div>
-        <div class="w-1/6">
-          <img src="assets/img/default.png" />
+
+        <div class="bg-slate-200 rounded-2xl p-3 h-fit">
+          <div class="font-mono text-center text-2xl mb-4">1</div>
+          <img src="assets/img/default.png" loading="lazy"/>
+          <div class="text-sm text-center py-4">Masih Misteri</div>
         </div>
-        <div class="w-full ml-4">Siti Amanah</div>
+
+        <div class="mt-8 bg-slate-200 rounded-2xl p-3 h-fit">
+          <div class="font-mono text-center text-2xl mb-4">3</div>
+          <img src="assets/img/default.png" loading="lazy"/>
+          <div class="text-sm text-center py-4">Gak Tau Siapa</div>
+        </div>
+
       </div>
+        <div class="m-4">
+          <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+            <div class="w-1/6 font-mono text-2xl text-center">4</div>
+            <div class="w-1/6">
+              <img src="assets/img/default.png" loading="lazy" />
+            </div>
+            <div class="text-sm w-full ml-4">Ntahlah ini juga</div>
+          </div>
+          <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+            <div class="w-1/6 font-mono text-2xl text-center">5</div>
+            <div class="w-1/6">
+              <img src="assets/img/default.png" loading="lazy" />
+            </div>
+            <div class="text-sm w-full ml-4">Ngapain? orang belum bagi raport</div>
+          </div>
+        </div>
     </div>
+  </main>
+    <script src="assets/script.js"></script>
 </body>
 </html>
