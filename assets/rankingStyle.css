@@ -639,6 +639,11 @@ video {
   background-color: inherit;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(img\/nizar\.jpg\)\] {
   background-image: url(img/nizar.jpg);
 }
@@ -771,8 +776,20 @@ video {
   background-image: url(img/maulana.png);
 }
 
-.bg-\[url\(img\/regita\.webp\)\] {
-  background-image: url(img/regita.webp);
+.bg-\[url\(img\/difa\.jpg\)\] {
+  background-image: url(img/difa.jpg);
+}
+
+.bg-\[url\(img\/regita\.jpg\)\] {
+  background-image: url(img/regita.jpg);
+}
+
+.bg-\[url\(img\/della\.jpg\)\] {
+  background-image: url(img/della.jpg);
+}
+
+.bg-\[url\(img\/nidia\.jpg\)\] {
+  background-image: url(img/nidia.jpg);
 }
 
 .bg-\[url\(img\/ananda\.jpg\)\] {
@@ -783,12 +800,40 @@ video {
   background-image: url(img/fira.jpg);
 }
 
-.bg-\[url\(img\/gilang\.jpg\)\] {
-  background-image: url(img/gilang.jpg);
+.bg-\[url\(img\/moh\.jpg\)\] {
+  background-image: url(img/moh.jpg);
+}
+
+.bg-\[url\(img\/vavian\.jpg\)\] {
+  background-image: url(img/vavian.jpg);
+}
+
+.bg-\[url\(img\/selvia\.jpg\)\] {
+  background-image: url(img/selvia.jpg);
+}
+
+.bg-\[url\(img\/khusi\.jpg\)\] {
+  background-image: url(img/khusi.jpg);
 }
 
 .bg-\[url\(img\/sudias\.jpg\)\] {
   background-image: url(img/sudias.jpg);
+}
+
+.bg-\[url\(img\/talitha\.jpg\)\] {
+  background-image: url(img/talitha.jpg);
+}
+
+.bg-\[url\(img\/pirli\.jpg\)\] {
+  background-image: url(img/pirli.jpg);
+}
+
+.bg-\[url\(img\/evan\.jpg\)\] {
+  background-image: url(img/evan.jpg);
+}
+
+.bg-\[url\(img\/maulana\.jpg\)\] {
+  background-image: url(img/maulana.jpg);
 }
 
 .bg-\[url\(img\/hafizdh\.jpg\)\] {
