@@ -521,6 +521,11 @@ video {
   margin: 1rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -541,6 +546,10 @@ video {
   margin-right: 1rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -551,6 +560,14 @@ video {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
 }
 
 .h-fit {
@@ -572,6 +589,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-4 {
@@ -618,6 +639,166 @@ video {
   background-color: inherit;
 }
 
+.bg-\[url\(img\/febri\.jpg\)\] {
+  background-image: url(img/febri.jpg);
+}
+
+.bg-\[url\(img\/nizar\.jpg\)\] {
+  background-image: url(img/nizar.jpg);
+}
+
+.bg-\[url\(img\/difa\.webp\)\] {
+  background-image: url(img/difa.webp);
+}
+
+.bg-\[url\(img\/ade\.jpg\)\] {
+  background-image: url(img/ade.jpg);
+}
+
+.bg-\[url\(img\/ananda\.jpeg\)\] {
+  background-image: url(img/ananda.jpeg);
+}
+
+.bg-\[url\(img\/ardina\.jpg\)\] {
+  background-image: url(img/ardina.jpg);
+}
+
+.bg-\[url\(img\/della\.webp\)\] {
+  background-image: url(img/della.webp);
+}
+
+.bg-\[url\(img\/evan\.jpeg\)\] {
+  background-image: url(img/evan.jpeg);
+}
+
+.bg-\[url\(img\/fahrul\.jpg\)\] {
+  background-image: url(img/fahrul.jpg);
+}
+
+.bg-\[url\(img\/febrian\.jpg\)\] {
+  background-image: url(img/febrian.jpg);
+}
+
+.bg-\[url\(img\/fira\.jpeg\)\] {
+  background-image: url(img/fira.jpeg);
+}
+
+.bg-\[url\(img\/hadi\.jpg\)\] {
+  background-image: url(img/hadi.jpg);
+}
+
+.bg-\[url\(img\/hafizdh\.jpg\)\] {
+  background-image: url(img/hafizdh.jpg);
+}
+
+.bg-\[url\(img\/khusi\.jpeg\)\] {
+  background-image: url(img/khusi.jpeg);
+}
+
+.bg-\[url\(img\/lisna\.jpg\)\] {
+  background-image: url(img/lisna.jpg);
+}
+
+.bg-\[url\(img\/lutfiah\.jpg\)\] {
+  background-image: url(img/lutfiah.jpg);
+}
+
+.bg-\[url\(img\/maulana\.png\)\] {
+  background-image: url(img/maulana.png);
+}
+
+.bg-\[url\(img\/gilang\.jpeg\)\] {
+  background-image: url(img/gilang.jpeg);
+}
+
+.bg-\[url\(img\/nidia\.webp\)\] {
+  background-image: url(img/nidia.webp);
+}
+
+.bg-\[url\(img\/nurcholis\.jpg\)\] {
+  background-image: url(img/nurcholis.jpg);
+}
+
+.bg-\[url\(img\/pirli\.webp\)\] {
+  background-image: url(img/pirli.webp);
+}
+
+.bg-\[url\(img\/regita\.jpeg\)\] {
+  background-image: url(img/regita.jpeg);
+}
+
+.bg-\[url\(img\/rehan\.jpg\)\] {
+  background-image: url(img/rehan.jpg);
+}
+
+.bg-\[url\(img\/riska\.jpg\)\] {
+  background-image: url(img/riska.jpg);
+}
+
+.bg-\[url\(img\/sayu\.jpg\)\] {
+  background-image: url(img/sayu.jpg);
+}
+
+.bg-\[url\(img\/selvi\.jpg\)\] {
+  background-image: url(img/selvi.jpg);
+}
+
+.bg-\[url\(img\/sindy\.jpg\)\] {
+  background-image: url(img/sindy.jpg);
+}
+
+.bg-\[url\(img\/siti\.jpg\)\] {
+  background-image: url(img/siti.jpg);
+}
+
+.bg-\[url\(img\/soraya\.jpg\)\] {
+  background-image: url(img/soraya.jpg);
+}
+
+.bg-\[url\(img\/sudias\.jpeg\)\] {
+  background-image: url(img/sudias.jpeg);
+}
+
+.bg-\[url\(img\/suryana\.jpg\)\] {
+  background-image: url(img/suryana.jpg);
+}
+
+.bg-\[url\(img\/talitha\.jpeg\)\] {
+  background-image: url(img/talitha.jpeg);
+}
+
+.bg-\[url\(img\/tiara\.jpg\)\] {
+  background-image: url(img/tiara.jpg);
+}
+
+.bg-\[url\(img\/vavian\.webp\)\] {
+  background-image: url(img/vavian.webp);
+}
+
+.bg-\[url\(img\/diki\.jpg\)\] {
+  background-image: url(img/diki.jpg);
+}
+
+.bg-\[url\(img\/default\.jpg\)\] {
+  background-image: url(img/default.jpg);
+}
+
+.bg-\[url\(img\/default\.png\)\] {
+  background-image: url(img/default.png);
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -639,6 +820,29 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -669,6 +873,63 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.text-sky-400 {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 248 / var(--tw-text-opacity));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.selection\:outline-none *::-moz-selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.selection\:outline-none *::selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.selection\:outline-none::-moz-selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.selection\:outline-none::selection {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.focus\:border-none:focus {
+  border-style: none;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }

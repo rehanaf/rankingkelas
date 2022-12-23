@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="assets/rankingStyle.css">
 </head>
 <body class="box-border bg-slate-300">
-  <nav class="z-10 p-4 flex font-mono border-b-2 border-slate-400">
+  <nav class="z-10 p-4 flex font-mono border-b-2 border-slate-400 items-center">
     <div class="text-lg font-medium mr-4">
-      tkj class
+      tkj 1 class
     </div>
-    <div class="border-2 border-sky-400 rounded-full px-3 py-1">
-      <select id="semester" class="bg-inherit">
+    <div class="border-2 border-sky-400 rounded-full px-3 py-1 focus:border-none focus:outline-none selection:outline-none">
+      <select id="semester" class="bg-inherit" disabled>
         <option value="10-1">10.1</option>
         <option value="10-2">10.2</option>
         <option value="11-1" selected>11.1</option>
@@ -26,41 +26,296 @@
 
       <div class="m-4 grid grid-cols-3 gap-4">
 
+        <!-- daritiga -->
         <div class="mt-4 bg-slate-200 rounded-2xl p-3 h-fit">
           <div class="font-mono text-center text-2xl mb-4">2</div>
-          <img src="assets/img/default.png" loading="lazy"/>
-          <div class="text-sm text-center py-4">Belum Di pastikan</div>
+          <div class="aspect-square rounded-full bg-[url(img/febrian.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm text-center pt-4">Febrian Raharjo</div>
+          <div class="text-xs text-center text-slate-600 opacity-0">986</div>
         </div>
+
 
         <div class="bg-slate-200 rounded-2xl p-3 h-fit">
           <div class="font-mono text-center text-2xl mb-4">1</div>
-          <img src="assets/img/default.png" loading="lazy"/>
-          <div class="text-sm text-center py-4">Masih Misteri</div>
+          <div class="aspect-square rounded-full bg-[url(img/nizar.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm text-center pt-4">Nizar Fajri Amanah</div>
+          <div class="text-xs text-center text-slate-600 opacity-0">1010</div>
         </div>
 
         <div class="mt-8 bg-slate-200 rounded-2xl p-3 h-fit">
           <div class="font-mono text-center text-2xl mb-4">3</div>
-          <img src="assets/img/default.png" loading="lazy"/>
-          <div class="text-sm text-center py-4">Gak Tau Siapa</div>
+          <div class="aspect-square rounded-full bg-[url(img/nurcholis.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm text-center pt-4">Nurcholis Dzulfan</div>
+          <div class="text-xs text-center text-slate-600 opacity-0">980</div>
         </div>
 
       </div>
-        <div class="m-4">
-          <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
-            <div class="w-1/6 font-mono text-2xl text-center">4</div>
-            <div class="w-1/6">
-              <img src="assets/img/default.png" loading="lazy" />
-            </div>
-            <div class="text-sm w-full ml-4">Ntahlah ini juga</div>
-          </div>
-          <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
-            <div class="w-1/6 font-mono text-2xl text-center">5</div>
-            <div class="w-1/6">
-              <img src="assets/img/default.png" loading="lazy" />
-            </div>
-            <div class="text-sm w-full ml-4">Ngapain? orang belum bagi raport</div>
-          </div>
+      <div class="mx-4">
+
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/rehan.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Rehan Abu Faqih</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
         </div>
+
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/difa.webp)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Difa Kristiadi</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/riska.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Riska Maulani</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+  
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/siti.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Siti Amanah</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+  
+     
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/regita.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Regita Cahyana Putri</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+  
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/suryana.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Suryana Bagus Sugara</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+  
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/ade.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Ade Suta Riwayan</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+        
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/febri.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Febri Nur Ardian Syah</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+
+
+      <div class="flex justify-center">
+        <button id="lainnya" class="py-1 px-3 text-sky-400 rounded-full text-xs font-medium hover:underline">
+          Lihat lainnya
+        </button>
+      </div>
+      </div>
+
+      <div id="hidden" class="mx-4 hidden">
+        
+      
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/ardina.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Ardina Cahya Meilani</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+        
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/della.webp)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Della Barokkah</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+           
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/nidia.webp)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Nidia Permatasari Putri</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/fahrul.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Fahrul Ikmasikis</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+      
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/ananda.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Ananda Risky Lens Farel A.</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/fira.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Fira Aprilia Yusuf</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/gilang.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Moh. Gilang Ramadhan</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+             
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/soraya.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Soraya Syahiqa</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/vavian.webp)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Vavian Faiz Islami</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+            
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/lutfiah.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Lutfiah Zahrah Aula</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/selvi.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Selvia Nurfadilah</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/khusi.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Khusi Istuning Rahayu</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/tiara.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Tiara Suci Rifana</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/sudias.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Sudias Saputra</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+              
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/default.png)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Lisna Audi</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+        
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/sindy.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Sindy Aulia Utami</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/talitha.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Talitha Syahda Fadiyah</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/hadi.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Hadi Trisetiawan</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/pirli.webp)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Pirli Oktapiani</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+          
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/sayu.jpg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Sayuningsih</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/evan.jpeg)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Evan Frananda Raditya</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/maulana.png)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Maulana Sihab</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/default.png)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Hafizdh Maulana</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+
+        
+        <div class="flex items-center bg-slate-200 rounded-2xl p-3 mb-4">
+          <div class="auto-number w-1/6 pr-2 font-mono text-2xl text-center"></div>
+          <div class="w-1/6 aspect-square rounded-full bg-[url(img/default.png)] bg-center bg-cover"></div>
+          <div class="text-sm w-full ml-2">Diki Ferdiansyah</div>
+          <div class="nilai w-1/6 text-xs text-center text-slate-600"></div>
+        </div>
+      
+      </div>
+
     </div>
   </main>
     <script src="assets/script.js"></script>
